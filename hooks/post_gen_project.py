@@ -17,6 +17,8 @@ import os
 import random
 import shutil
 
+from cookiecutter.main import cookiecutter
+
 # Get the root project directory
 PROJECT_DIRECTORY = os.path.realpath(os.path.curdir)
 
